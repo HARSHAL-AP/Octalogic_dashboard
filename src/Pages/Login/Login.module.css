@@ -1,0 +1,35 @@
+.loginbody{
+    width: 350px;
+   
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.heding{
+    font-size: 22px;
+    font-weight: 900;
+    color: #460909;
+    font: var(--text-header-6, 400 22px "Nunito Sans", sans-serif);
+}
+.loginbody>input{
+width: 90%;
+padding: 5px;
+height: 35px;
+margin: auto;
+border: 1px solid rgb(190, 184, 184);
+margin-top: 15px;
+border-radius: 8px;
+}
+.add {
+    cursor: pointer;
+    width: 145px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background: #fec0ca;
+    font-weight: 600;
+  }

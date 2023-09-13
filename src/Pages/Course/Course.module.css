@@ -1,0 +1,137 @@
+.homedashcon {
+    width: 100%;
+    height: 100vh;
+    padding-left: 100px;
+  
+}
+.headings {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(131, 133, 139, 1);
+  }
+  .frame30 {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .latestenrolments {
+    color: var(--colours-text-light-secondary, #83858b);
+    text-align: left;
+    font: var(--text-subtitle-2, 700 16px "Nunito Sans", sans-serif);
+    text-transform: uppercase;
+    position: relative;
+  }
+  .viewallcourses {
+    background: var(--colours-gray-white, #ffffff);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: var(--colours-gray-200, #e5e7eb);
+    border-width: 1px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 223px;
+    height: 35px;
+    position: relative;
+  }
+  .tableconter{
+    width: 85%;
+    
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+  }
+  
+ 
+.table {
+  background: var(--colours-background-panel, #ffffff);
+  border-radius: 6px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.table2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header {
+  border-style: solid;
+  border-color: var(--colours-gray-300, #d1d5db);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.enrno {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.sname {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+ 
+}
+.cname {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+ 
+}
+.fees {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.enrdate {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.body {
+  padding: 4px 0px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}

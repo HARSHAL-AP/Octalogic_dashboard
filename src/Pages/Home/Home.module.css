@@ -1,0 +1,274 @@
+.homedashcon {
+  width: 100%;
+  height: 100vh;
+  padding-left: 100px;
+
+}
+.headings {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  color: rgba(131, 133, 139, 1);
+}
+.overviewscon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-left: 30px;
+  margin-top: 30px;
+  gap: 15px;
+}
+.overviewsconter {
+  display: flex;
+  height: 98px;
+  width: 232px;
+  padding: 16px;
+  
+  border-radius: 6px;
+}
+.frame-20,
+.frame-20 * {
+  box-sizing: border-box;
+}
+.frame20 {
+  background: var(--colours-background-panel, #ffffff);
+  border-radius: 6px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 232px;
+  position: relative;
+}
+.frame21 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame27 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icbaselinepeople {
+  border-radius: 24px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame35 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._5-600 {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-header-6, 400 22px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.from4400lastmonth {
+  color: var(--colours-text-light-secondary, #83858b);
+  text-align: left;
+  font: var(--text-body-2, 400 12px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.frame29 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.view {
+  color: var(--colours-secondary-700, #b33086);
+  text-align: left;
+  font: var(--text-body-caption, 400 9px "Nunito Sans", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame30 {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .latestenrolments {
+    color: var(--colours-text-light-secondary, #83858b);
+    text-align: left;
+    font: var(--text-subtitle-2, 700 16px "Nunito Sans", sans-serif);
+    text-transform: uppercase;
+    position: relative;
+  }
+  .viewallcourses {
+    color: var(--colours-secondary-800, #901e75);
+    text-align: left;
+    font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+    position: relative;
+  }
+  .tableconter{
+    width: 85%;
+    height: 300px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+  }
+  
+ 
+.table {
+  background: var(--colours-background-panel, #ffffff);
+  border-radius: 6px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.table2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header {
+  border-style: solid;
+  border-color: var(--colours-gray-300, #d1d5db);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.enrno {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.sname {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.cname {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.fees {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.enrdate {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: 700 14px "Nunito Sans", sans-serif;
+  position: relative;
+}
+.body {
+  padding: 4px 0px 4px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.row {
+  border-style: solid;
+  border-color: var(--colours-gray-200, #e5e7eb);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._1563124 {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.johndoe {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.percussion {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
+._120 {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
+._1208223 {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.column {
+  color: var(--colours-text-light-primary, #212529);
+  text-align: left;
+  font: var(--text-body-1, 400 14px "Nunito Sans", sans-serif);
+  position: relative;
+}
