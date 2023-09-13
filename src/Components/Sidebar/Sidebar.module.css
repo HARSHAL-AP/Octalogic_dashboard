@@ -43,6 +43,7 @@
     margin: auto;
     margin-top: 5px;
     color: rgba(144, 30, 117, 1);
+    cursor: pointer;
 }
 .homelcondesc{
 font-size: 12px;
@@ -50,6 +51,7 @@ font-style: normal;
 font-weight: 500;
 margin-top: -5px;
 color: rgba(144, 30, 117, 1);
+cursor: pointer;
 
 }
 .linkbutons2{
@@ -60,6 +62,7 @@ color: rgba(144, 30, 117, 1);
     border-radius: 5px;
     margin-top: 15px;
     text-align: center;
+    cursor: pointer;
   
 }
 .homelcon2{
@@ -81,6 +84,9 @@ margin-top: -5px;
     padding: 4px 5px 4px 5px;
     border-radius: 5px;
     margin-top: 15px;
-   
+    cursor: pointer;
     text-align: center;
+}
+.logoutbuton2{
+  cursor: pointer;
 }

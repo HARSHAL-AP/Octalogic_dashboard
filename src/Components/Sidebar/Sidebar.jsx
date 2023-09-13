@@ -6,6 +6,11 @@ import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   const navigate=useNavigate()
+  const logout=() => {
+    localStorage.setItem("isAuth",JSON.stringify(false))
+    navigate("/login")
+  }
+
   return (
     <div className={Styles.sidebar}>
       <img src={logo} alt=""  className={Styles.logo}/>
@@ -19,7 +24,7 @@ const Sidebar = () => {
        <p className={Styles.homelcondesc2}>Courses</p>
         </div>
       </div>
-      <div className={Styles.logoutbuton2}>
+      <div className={Styles.logoutbuton2} onClick={logout}>
         <MdLogout  className={Styles.homelcon2}/>
         <p className={Styles.homelcondesc2}>Logout</p>
       </div>
